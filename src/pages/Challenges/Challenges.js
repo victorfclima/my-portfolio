@@ -2,6 +2,9 @@ import React from 'react';
 import Nav from '../../Components/Nav/Nav';
 import Header from '../../Components/Header/Header';
 
+import Weather from '../../assets/weatherapp.png'
+import Shop from '../../assets/shopapp.png'
+
 import Card from '../../Components/Card/Card';
 import { Title, Container, Grid } from '../../styles/global';
 import './media.css';
@@ -19,7 +22,7 @@ function Challenges() {
           <ul>
             <li>
               <Card>
-                <img src="" alt="Weather App" />
+                <img src={Weather} alt="Weather App" />
                 <p>
                   Weather App
 								<br />
@@ -45,7 +48,7 @@ function Challenges() {
 
             <li>
               <Card>
-                <img src="" alt="Shop Filter App" />
+                <img src={Shop} alt="Shop Filter App" />
                 <p>
                   Shop Promotion Filter App
 								<br />
