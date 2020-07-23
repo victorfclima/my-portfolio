@@ -5,9 +5,8 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   margin-top: 100px;
-  padding: 0 10px 0 10px;
-  width: 100vw;
 
   p{
   font-family: 'Taviraj', serif;

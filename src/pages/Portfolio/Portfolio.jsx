@@ -10,6 +10,7 @@ import './media.css';
 import Potiguar from '../../assets/projphoto1.png';
 import Solenergy from '../../assets/solenergy.png';
 import Ecoleta from '../../assets/ecoleta.png';
+import PortfolioImg from '../../assets/portfolio.png';
 
 function Portfolio() {
   return (
@@ -75,13 +76,17 @@ function Portfolio() {
             </li>
             <li>
               <Card>
-                <img src={Potiguar} alt="Potiguar Prime" />
+                <img src={PortfolioImg} alt="Potiguar Prime" />
                 <p>
                   My Portfolio
                   <br />
                   Portfolio pessoal
                 </p>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/victorfclima/my-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View full project &gt;&gt;
                 </a>
               </Card>

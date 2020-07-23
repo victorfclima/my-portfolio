@@ -10,11 +10,11 @@ import { GlobalStyle } from './styles/global'
 const Routes = () => {
   return (
     <BrowserRouter>
+      <GlobalStyle />
       <Route component={Portfolio} path="/" exact />
       <Route component={Challenges} path="/challenges" />
       <Route component={Blog} path="/blog" />
       <Route component={About} path="/about" />
-      <GlobalStyle></GlobalStyle>
     </BrowserRouter>
   );
 };

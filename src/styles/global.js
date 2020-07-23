@@ -12,19 +12,41 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
   -webkit-font-smoothing: antialiased;
+  overflow-y: scroll
 }
 
 button {
   cursor: pointer;
 }
+
+ /* width */
+ ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 `;
 
 export const Container = styled.div`
-	margin-top: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 100%;
 `
 
 export const Title = styled.h1`
-
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	font-weight: 500;
 	font-size: 0.9rem;
@@ -55,14 +77,14 @@ span:after {
 }
 `
 export const Grid = styled.div`
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
   margin-top: 60px;
 
   ul {
-    display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 60px;
-	list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  list-style: none;
   }
 `
