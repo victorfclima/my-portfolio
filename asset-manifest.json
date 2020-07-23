@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.2766a119.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.66db3ce4.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.66db3ce4.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.00bba678.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.00bba678.js.map",
+    "static/js/2.857af706.chunk.js": "/my-portfolio/static/js/2.857af706.chunk.js",
+    "static/js/2.857af706.chunk.js.map": "/my-portfolio/static/js/2.857af706.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.57e3c898c9f79af766f04d7b488079c1.js": "/my-portfolio/precache-manifest.57e3c898c9f79af766f04d7b488079c1.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.2766a119.chunk.css.map": "/my-portfolio/static/css/main.2766a119.chunk.css.map",
+    "static/js/2.857af706.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.857af706.chunk.js.LICENSE.txt",
+    "static/media/ecoleta.png": "/my-portfolio/static/media/ecoleta.4ca8b2e2.png",
+    "static/media/menu.svg": "/my-portfolio/static/media/menu.ca394ec8.svg",
+    "static/media/portfolio.png": "/my-portfolio/static/media/portfolio.14542070.png",
+    "static/media/projphoto1.png": "/my-portfolio/static/media/projphoto1.9f5827f4.png",
+    "static/media/shopapp.png": "/my-portfolio/static/media/shopapp.714f191a.png",
+    "static/media/solenergy.png": "/my-portfolio/static/media/solenergy.c6942781.png",
+    "static/media/weatherapp.png": "/my-portfolio/static/media/weatherapp.6203daab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00bba678.js",
+    "static/js/2.857af706.chunk.js",
+    "static/css/main.2766a119.chunk.css",
+    "static/js/main.66db3ce4.chunk.js"
+  ]
+}
