@@ -1,20 +1,21 @@
 import React from "react";
 import Nav from "../../Components/Nav/Nav";
 import Header from "../../Components/Header/Header";
-import "./styles.css";
+
+import { Title, Container } from '../../styles/global';
 import "./media.css";
 
 function Blog() {
   return (
-    <div className="blog-page">
+    <>
       <Nav />
       <Header />
-      <div className="main-page">
-        <h1 className="decorated">
+      <Container>
+        <Title>
           <span>BLOG</span>
-        </h1>
-      </div>
-    </div>
+        </Title>
+      </Container>
+    </>
   );
 }
 
