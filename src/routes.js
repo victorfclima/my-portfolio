@@ -11,10 +11,10 @@ const Routes = () => {
   return (
     <BrowserRouter>
       <GlobalStyle />
-      <Route component={Portfolio} path="/" exact />
-      <Route component={Challenges} path="/challenges" />
-      <Route component={Blog} path="/blog" />
-      <Route component={About} path="/about" />
+      <Route component={Portfolio} path="/my-portfolio" exact />
+      <Route component={Challenges} path="/my-portfolio/challenges" />
+      <Route component={Blog} path="/my-portfolio/blog" />
+      <Route component={About} path="/my-portfolio/about" />
     </BrowserRouter>
   );
 };
