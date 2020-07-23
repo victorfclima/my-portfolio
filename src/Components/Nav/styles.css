@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+div.header {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: white;
+}
+
+.navbar {
+	height: 41px;
+	border-bottom: 3px solid #e5e5e5;
+}
+
+li.nav-item a {
+	color: #5995da;
+	font-weight: normal;
+	font-size: 0.9rem;
+}

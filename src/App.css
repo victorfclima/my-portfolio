@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+	box-sizing: border-box;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul,
+li {
+	margin: 0;
+	padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.decorated {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-weight: 500;
+	font-size: 0.9rem;
+	color: #5d6063;
+	overflow: hidden;
+	text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.decorated > span {
+	position: relative;
+	display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.decorated > span:before,
+.decorated > span:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	border-bottom: 1px solid #5d6063;
+	width: 450px; /* half of limiter */
+	margin: 0 20px;
+}
+.decorated > span:before {
+	right: 100%;
+}
+.decorated > span:after {
+	left: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-page {
+	margin-top: 100px;
+}
+
+.items-grid {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.items-grid ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 60px;
+	list-style: none;
+}
+
+.items-grid ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.items-grid ul li img {
+	width: 215px;
+	opacity: 0.8;
+	filter: grayscale(100%);
+	transition: 0.3s;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.items-grid ul li img:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+}
+
+.items-grid ul li p,
+.items-grid ul li a {
+	font-family: 'Taviraj', serif;
+	font-weight: 300;
+	color: #5d6063;
+	font-size: 1rem;
+	line-height: 1.1rem;
+	line-height: 1.6rem;
+	margin: 0;
+}
+
+.items-grid ul li a {
+	color: #5995da;
 }
