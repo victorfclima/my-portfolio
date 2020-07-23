@@ -6,6 +6,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  padding: 0 10px 0 10px;
+  width: 100vw;
 
   p{
   font-family: 'Taviraj', serif;
